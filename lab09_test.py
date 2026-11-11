@@ -1,6 +1,5 @@
 from lab09 import two_sum, max_profit, max_subarray, is_balanced
 
-
 def test_two_sum():
     assert two_sum([2, 7, 11, 15], 9) == [0, 1]
     assert two_sum([3, 2, 4], 6) == [1, 2]
